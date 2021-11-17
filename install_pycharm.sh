@@ -24,5 +24,6 @@ if [-d "~/Desktop"]
 then 
     echo "Your desktop directory doesn't seem to exist. It's been created automatically, but PyCharm is graphical, so you'll have to log on to the build server with Remote Desktop Connection to use it"
     mkdir ~/Desktop
+fi
 url="https://download.jetbrains.com/python/pycharm-${edition}-${PYCHARM_YEAR}.${PYCHARM_MAJOR}.${PYCHARM_MINOR}.tar.gz"
 curl $url -L -s | tar zxf - -C ~/Desktop
