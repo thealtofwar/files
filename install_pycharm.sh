@@ -1,7 +1,7 @@
 #!/bin/bash 
-PYCHARM_YEAR="2021" 
+PYCHARM_YEAR="2022" 
 PYCHARM_MAJOR="2" 
-PYCHARM_MINOR="3" 
+PYCHARM_MINOR="1" 
 while true
 do
     echo "Do you want Professional [p] or Community [c]?" 
