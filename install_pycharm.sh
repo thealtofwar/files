@@ -11,7 +11,7 @@ do
         echo "Downloading Professional Edition" 
         edition="professional" 
         break
-    elif [ "${edition,,}" == "c" ] || [ "${edition,,}" == " community" ] 
+    elif [ "${edition,,}" == "c" ] || [ "${edition,,}" == "community" ] 
     then 
         echo "Downloading Community Edition" 
         edition="community" 
